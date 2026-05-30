@@ -67,6 +67,17 @@ export default function Footer() {
           <div className="flex items-center gap-5">
             <a href="#" className="hover:text-crimson-400">Privacy</a>
             <a href="#" className="hover:text-crimson-400">Terms</a>
+            <span>
+              Site by{" "}
+              <a
+                href="https://getsidechain.net"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-crimson-400 transition-colors"
+              >
+                Sidechain
+              </a>
+            </span>
             <a
               href="/login"
               aria-label="Staff sign in"
